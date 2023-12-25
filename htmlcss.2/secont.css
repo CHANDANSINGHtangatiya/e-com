@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+
+}
+.header_section{
+    width: 100%;
+    height: 100%;
+}
+.main_section{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30px;
+    position: static;
+}
+.logo_section{
+    align-items: center;
+    margin-top: 8px;
+}
+.section1,ul,li,a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    list-style: none;
+    text-decoration: none;
+}
+/* hero section */
+
+.hero_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(203, 184, 164);
+    height:calc(100% - 50px);
+}
+h1{
+    color: green;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 12px 0;
+}
+h3{
+    margin-top: 12px;
+    font-weight: 5px;
+
+}
+.hero_left,button{
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 30px;
+
+}
+.hero_right,img:hover{
+
+    margin-top: 30px;
+}
+/* this is bottom 2nd secton */
+.h_tag{
+    margin-top: 30px;
+
+}
+.shop_now{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.shop_section1{
+    background-color: green;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+border-radius: 20px;
+color: white;
+}
+.shop_section2{
+    background-color: green;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+border-radius: 20px;
+color: white;
+}
+.shop_section3{
+    background-color: green;
+    width: 300px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    color: white;
+}
+.get_now{
+    margin: 30px;
+}
+.bottom_3nd_hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nd_right{
+    width: 30%;
+}
+/*  this is a last section */
+.last_section{
+    background-color: bisque;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right_last{
+    width:30%;
+}
+/*  this is a footer section */
+
+.footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    background-color: yellow;
+    width: 100%;
+}
+.links.ulli{
+    display: block;
+    list-style: square;
+}
